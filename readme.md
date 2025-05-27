@@ -54,7 +54,7 @@ run `yarn build` or `npm run build` again to compile.
 ## 🔗 Links
 
 - 📦 [View on npm](https://www.npmjs.com/package/ts-init-go)
-- 🧑‍💻 [Source on GitHub](https://github.com/SigismundBT/ts_init_go)
+- 🧑‍💻 [Source on GitHub](https://github.com/SigismundBT/ts-init-go)
 
 ---
 

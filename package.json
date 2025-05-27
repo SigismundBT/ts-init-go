@@ -1,6 +1,6 @@
 {
   "name": "ts-init-go",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fast CLI tool to initialize clean TypeScript projects with zero config.",
   "main": "index.js",
   "author": "SigismundBT",
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SigismundBT/ts_init_go.git"
+    "url": "git+https://github.com/SigismundBT/ts-init-go.git"
   },
   "bugs": {
-    "url": "https://github.com/SigismundBT/ts_init_go/issues"
+    "url": "https://github.com/SigismundBT/ts-init-go/issues"
   },
-  "homepage": "https://github.com/SigismundBT/ts_init_go#readme"
+  "homepage": "https://github.com/SigismundBT/ts-init-go#readme"
 }
