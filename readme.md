@@ -1,6 +1,8 @@
 # ts-init-template
 
-> A minimal CLI to bootstrap a clean TypeScript project with zero friction.
+[![npm version](https://img.shields.io/npm/v/ts-init-template?color=blue)](https://www.npmjs.com/package/ts-init-template)
+
+> 🧪 A minimal CLI tool to instantly scaffold a clean TypeScript project with zero config.
 
 ---
 
@@ -14,26 +16,48 @@
 
 ---
 
-## 📦 Usage
+## 📦 Quick Install
 
-### 💡 With Yarn
+```
+npx ts-init-template
+```
 
-```bash
+> You’ll need to run `yarn init` or `npm init -y` first.
 
+---
+
+## 💡 Usage
+
+### With Yarn
+
+```
 yarn init
 npx ts-init-template
 yarn build
 yarn start
 ```
 
-### 💡 With NPM
+### With NPM
 
-```bash
-
-npm init
+```
+npm init -y
 npx ts-init-template
 npm run build
 npm run start
 ```
 
-🔁 Remember: Every time you change your files in `src/`, run `yarn build` or `npm run build` again to compile.
+🔁 **Remember:** Every time you change your files in `src/`,  
+run `yarn build` or `npm run build` again to compile.
+
+---
+
+## 🔗 Links
+
+- 📦 [View on npm](https://www.npmjs.com/package/ts-init-template)
+- 🧑‍💻 [Source on GitHub](https://github.com/SigismundBT/ts_init_template)
+
+---
+
+## 📄 License
+
+MIT © SigismundBT

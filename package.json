@@ -1,6 +1,6 @@
 {
   "name": "ts-init-template",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A TS project template for TS projects. This script will setup all the ts enviroment with 1 command. ",
   "main": "index.js",
   "author": "SigismundBT",
