@@ -1,0 +1,14 @@
+{
+  "name": "ts-init-template",
+  "version": "1.0.9",
+  "description": "A TS project template for TS projects. This script will setup all the ts enviroment with 1 command. ",
+  "main": "index.js",
+  "author": "SigismundBT",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "type": "module",
+  "bin": {
+    "ts-init": "./index.js"
+  }
+}
