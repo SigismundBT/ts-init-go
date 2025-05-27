@@ -1,14 +1,24 @@
 {
-  "name": "ts-init-template",
-  "version": "1.0.10",
-  "description": "A TS project template for TS projects. This script will setup all the ts enviroment with 1 command. ",
+  "name": "ts-init-go",
+  "version": "1.0.0",
+  "description": "A fast CLI tool to initialize clean TypeScript projects with zero config.",
   "main": "index.js",
   "author": "SigismundBT",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {},
   "type": "module",
   "bin": {
-    "ts-init": "./index.js"
-  }
+    "ts-init": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SigismundBT/ts_init_go.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SigismundBT/ts_init_go/issues"
+  },
+  "homepage": "https://github.com/SigismundBT/ts_init_go#readme"
 }

@@ -1,6 +1,6 @@
-# ts-init-template
+# ts-init-go
 
-[![npm version](https://img.shields.io/npm/v/ts-init-template?color=blue)](https://www.npmjs.com/package/ts-init-template)
+[![npm version](https://img.shields.io/npm/v/ts-init-go?color=blue)](https://www.npmjs.com/package/ts-init-go)
 
 > 🧪 A minimal CLI tool to instantly scaffold a clean TypeScript project with zero config.
 
@@ -53,8 +53,8 @@ run `yarn build` or `npm run build` again to compile.
 
 ## 🔗 Links
 
-- 📦 [View on npm](https://www.npmjs.com/package/ts-init-template)
-- 🧑‍💻 [Source on GitHub](https://github.com/SigismundBT/ts_init_template)
+- 📦 [View on npm](https://www.npmjs.com/package/ts-init-go)
+- 🧑‍💻 [Source on GitHub](https://github.com/SigismundBT/ts_init_go)
 
 ---
 
