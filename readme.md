@@ -19,10 +19,10 @@
 ## 📦 Quick Install
 
 ```
-npx ts-init-template
+npx ts-init-go
 ```
 
-> You’ll need to run `yarn init` or `npm init -y` first.
+> You’ll need to run `yarn init` or `npm init` first.
 
 ---
 
@@ -32,7 +32,7 @@ npx ts-init-template
 
 ```
 yarn init
-npx ts-init-template
+npx ts-init-go
 yarn build
 yarn start
 ```
@@ -40,8 +40,8 @@ yarn start
 ### With NPM
 
 ```
-npm init -y
-npx ts-init-template
+npm init
+npx ts-init-go
 npm run build
 npm run start
 ```
