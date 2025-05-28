@@ -54,7 +54,7 @@ pnpm run build
 pnpm run start
 ```
 
-🔁 Tip: After editing files in src/, just run npm run build, yarn build, or pnpm run build to compile again.
+🔁 Tip: After editing files in src/, just run `npm run build`, `yarn build`, or `pnpm run build` to compile again.
 
 ---
 
