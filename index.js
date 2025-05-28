@@ -10,9 +10,12 @@ const execAsync = promisify(exec);
 //install dependencies
 try{
   const isYarn = await fs.access('yarn.lock').then(() => true).catch(() => false);
-  const installCmd = isYarn
-    ? 'yarn add -D yarn add -D typescript ts-node @types/node fast-glob esbuild'
-    : 'npm install -D yarn add -D typescript ts-node @types/node fast-glob esbuild';
+  const isPnpm = await fs.access('pnpm-lock.yaml').then(() => true).catch(() => false);
+  const installCmd = isPnpm
+  ? 'pnpm add -D typescript ts-node @types/node fast-glob esbuild'
+  : isYarn
+    ? 'yarn add -D typescript ts-node @types/node fast-glob esbuild'
+    : 'npm install -D typescript ts-node @types/node fast-glob esbuild';
 
   const { stdout, stderr } = await execAsync(installCmd);
   console.log('Dependencies installed successfully:', stdout);

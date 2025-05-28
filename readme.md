@@ -8,6 +8,7 @@
 
 ## 🚀 Features
 
+- 🤖 Auto-detects your package manager (npm / yarn / pnpm)
 - 🛠 Installs required devDependencies
 - 📦 Sets up `tsconfig.json` and `build.js`
 - 🔧 Updates `package.json` (`type`, `scripts`)
@@ -22,20 +23,11 @@
 npx ts-init-go
 ```
 
-> You’ll need to run `yarn init` or `npm init` first.
+> You’ll need to run `npm init`, `yarn init`, or `pnpm init` first.
 
 ---
 
 ## 💡 Usage
-
-### With Yarn
-
-```
-yarn init
-npx ts-init-go
-yarn build
-yarn start
-```
 
 ### With NPM
 
@@ -45,9 +37,24 @@ npx ts-init-go
 npm run build
 npm run start
 ```
+### With Yarn
 
-🔁 **Remember:** Every time you change your files in `src/`,  
-run `yarn build` or `npm run build` again to compile.
+```
+yarn init
+npx ts-init-go
+yarn build
+yarn start
+```
+
+### With PNPM
+```
+pnpm init
+npx ts-init-go
+pnpm run build
+pnpm run start
+```
+
+🔁 Tip: After editing files in src/, just run npm run build, yarn build, or pnpm run build to compile again.
 
 ---
 
