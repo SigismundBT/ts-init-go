@@ -1,67 +1,35 @@
-# ts-init-go
+# ⚠️ ts-init-go (DEPRECATED)
 
 [![npm version](https://img.shields.io/npm/v/ts-init-go?color=blue)](https://www.npmjs.com/package/ts-init-go)
 
-> 🧪 A minimal CLI tool to instantly scaffold a clean TypeScript project with zero config.
+> 🧪 This project is no longer maintained. It has been fully replaced by [`mostir`](https://github.com/SigismundBT/mostir), a modular, extensible CLI toolchain for TypeScript scaffolding and build automation.
 
 ---
 
-## 🚀 Features
+## ❗️ Status: DEPRECATED
 
-- 🤖 Auto-detects your package manager (npm / yarn / pnpm)
-- 🛠 Installs required devDependencies
-- 📦 Sets up `tsconfig.json` and `build.js`
-- 🔧 Updates `package.json` (`type`, `scripts`)
-- 📁 Creates a `src/` directory if it doesn't exist
-- ⚡ Runs in seconds with a single command
+This repository is frozen and will receive no further updates.  
+Please use [`mostir`](https://github.com/SigismundBT/mostir) instead — the future of `ts-init-go`.
 
 ---
 
-## 📦 Quick Install
+## 🔄 Migration
 
-```
+If you were using `ts-init-go`, migrating to `mostir` is straightforward:
+
+### Old
+```bash
 npx ts-init-go
 ```
 
-> You’ll need to run `npm init`, `yarn init`, or `pnpm init` first.
-
----
-
-## 💡 Usage
-
-### With NPM
-
-```
-npm init
-npx ts-init-go
-npm run build
-npm run start
-```
-### With Yarn
-
-```
-yarn init
-npx ts-init-go
-yarn build
-yarn start
+### New
+```bash
+npx @mostir/init
+npx @mostir/build
+npx @mostir/sync
 ```
 
-### With PNPM
-```
-pnpm init
-npx ts-init-go
-pnpm run build
-pnpm run start
-```
-
-🔁 Tip: After editing files in src/, just run `npm run build`, `yarn build`, or `pnpm run build` to compile again.
-
----
-
-## 🔗 Links
-
-- 📦 [View on npm](https://www.npmjs.com/package/ts-init-go)
-- 🧑‍💻 [Source on GitHub](https://github.com/SigismundBT/ts-init-go)
+See the [mostir README](https://github.com/SigismundBT/mostir) for full documentation.
 
 ---
 
